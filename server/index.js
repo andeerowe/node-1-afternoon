@@ -4,7 +4,7 @@ const getProduct = require('./getProduct')
 
 const app = express()
 
-const port = 4444
+const port = 4545
 
 app.get('/api/products', getProducts)
 
